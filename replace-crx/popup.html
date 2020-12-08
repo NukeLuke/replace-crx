@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>popup页</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+	body {
+		font-family: 'Microsoft Yahei';
+		width: 500px;
+		min-height: 100px;
+	}
+	a {margin-right: 10px;}
+	</style>
+</head>
+<body>
+	<h2>改文字</h2>
+	<h5><i>填写的文本支持用英文逗号","分隔多个关键字，注意逗号数量要一致</i></h5>
+	<div>
+		<a href="#" id="seached">填目标文本</a>
+		<a href="#" id="replaced">填需要显示的文本</a>
+		<div style="height: 10px;"></div>
+		<div style="padding-bottom: 20px; height: 30px;">
+			你输入的被替换的目标文本：
+			<div style="padding-bottom: 20px;" id="st"></div>
+		</div>
+		<div style="padding-bottom: 20px; height: 30px;">
+			你输入的替换后显示的文本：
+			<div style="padding-bottom: 20px;" id="rt"></div>
+		</div>
+		<a href="#" id="submitText">点击更改文本</a>
+	</div>
+	<h2>改标题</h2>
+	<div>
+		<a href="#" id="title">填标题</a>
+		<div style="height: 10px;"></div>
+		<div style="padding-bottom: 20px; height: 30px;">
+			你输入的替换后显示的网页标题：
+			<div style="padding-bottom: 20px;" id="tt"></div>
+		</div>
+		<a href="#" id="submitTitle">点击更改标题</a>
+	</div>
+	<div style="height: 30px;"></div>
+	<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="js/popup.js"></script>
+</body>
+</html>
